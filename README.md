@@ -1,5 +1,6 @@
-# pointnet implementation
-Semantic keypoint extraction
+# Semantic keypoint extraction
+
+Implementation of supervised semantic keypoint extraction
 
 ## dependencies
 
