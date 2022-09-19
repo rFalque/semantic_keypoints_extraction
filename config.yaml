@@ -1,0 +1,35 @@
+debug : False
+save_log : True
+visualization: False
+epochs : 50
+learning_rate : 0.01
+start_training_from_previous_training_set : False
+
+IO:
+  path_to_save_model: "data/weights/"
+  path_to_save_temp_model: "data/weights/"
+  path_to_save_test_predictions: "data/test"
+
+data_augmentation:
+  gaussian_noise : False
+
+pointnet_unet:
+  input_nc : 3
+  num_layers : 3
+  output_nc : 6
+  pretrained_path : "data/weights/model_2022-09-15_20-52-11.pt"
+
+kpconv_unet:
+  input_nc : 0
+  num_layers : 4
+  output_nc : 6
+  pretrained_path : ""
+
+pointnet2:
+  input_nc : 3
+  num_layers : 3
+  output_nc : 6
+  
+test:
+  visualization: True
+  save_output: True

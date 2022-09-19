@@ -1,0 +1,97 @@
+Log file from: 19-Sep-2022 (17:39:28)
+---
+Params in config.yaml:
+
+debug : False
+save_log : True
+visualization: False
+epochs : 50
+learning_rate : 0.01
+start_training_from_previous_training_set : False
+
+IO:
+  path_to_save_model: "data/weights/"
+  path_to_save_temp_model: "data/weights/"
+  path_to_save_test_predictions: "data/test"
+
+data_augmentation:
+  gaussian_noise : False
+
+pointnet_unet:
+  input_nc : 3
+  num_layers : 3
+  output_nc : 6
+  pretrained_path : "data/weights/model_2022-09-15_20-52-11.pt"
+
+kpconv_unet:
+  input_nc : 0
+  num_layers : 4
+  output_nc : 6
+  pretrained_path : ""
+
+pointnet2:
+  input_nc : 3
+  num_layers : 3
+  output_nc : 6
+  
+test:
+  visualization: True
+  save_output: True
+
+---
+Additional informations:
+number of parameters: 1382540
+batch size: 1
+device: cuda:0
+loss: MSELoss()
+---
+Progress epoch: 1 / 50 . Total loss: 0.4948621690273285
+Progress epoch: 2 / 50 . Total loss: 0.4615398347377777
+Progress epoch: 3 / 50 . Total loss: 0.4077196419239044
+Progress epoch: 4 / 50 . Total loss: 0.32207170128822327
+Progress epoch: 5 / 50 . Total loss: 0.287409245967865
+Progress epoch: 6 / 50 . Total loss: 0.31724193692207336
+Progress epoch: 7 / 50 . Total loss: 0.19033531844615936
+Progress epoch: 8 / 50 . Total loss: 0.19551537930965424
+Progress epoch: 9 / 50 . Total loss: 0.16626016795635223
+Progress epoch: 10 / 50 . Total loss: 0.13824905455112457
+Progress epoch: 11 / 50 . Total loss: 0.10911261290311813
+Progress epoch: 12 / 50 . Total loss: 0.10776995867490768
+Progress epoch: 13 / 50 . Total loss: 0.07903631031513214
+Progress epoch: 14 / 50 . Total loss: 0.06948704272508621
+Progress epoch: 15 / 50 . Total loss: 0.07198239117860794
+Progress epoch: 16 / 50 . Total loss: 0.058866146951913834
+Progress epoch: 17 / 50 . Total loss: 0.05108993127942085
+Progress epoch: 18 / 50 . Total loss: 0.048964787274599075
+Progress epoch: 19 / 50 . Total loss: 0.03767530620098114
+Progress epoch: 20 / 50 . Total loss: 0.034525178372859955
+Progress epoch: 21 / 50 . Total loss: 0.02858772873878479
+Progress epoch: 22 / 50 . Total loss: 0.029443364590406418
+Progress epoch: 23 / 50 . Total loss: 0.027755845338106155
+Progress epoch: 24 / 50 . Total loss: 0.01934860087931156
+Progress epoch: 25 / 50 . Total loss: 0.018457528203725815
+Progress epoch: 26 / 50 . Total loss: 0.016321677714586258
+Progress epoch: 27 / 50 . Total loss: 0.01592886447906494
+Progress epoch: 28 / 50 . Total loss: 0.014129741117358208
+Progress epoch: 29 / 50 . Total loss: 0.014086238108575344
+Progress epoch: 30 / 50 . Total loss: 0.013061145320534706
+Progress epoch: 31 / 50 . Total loss: 0.009492198005318642
+Progress epoch: 32 / 50 . Total loss: 0.011710536666214466
+Progress epoch: 33 / 50 . Total loss: 0.010648415423929691
+Progress epoch: 34 / 50 . Total loss: 0.009721200913190842
+Progress epoch: 35 / 50 . Total loss: 0.008407526649534702
+Progress epoch: 36 / 50 . Total loss: 0.007042775396257639
+Progress epoch: 37 / 50 . Total loss: 0.008572449907660484
+Progress epoch: 38 / 50 . Total loss: 0.006648685783147812
+Progress epoch: 39 / 50 . Total loss: 0.0073931836523115635
+Progress epoch: 40 / 50 . Total loss: 0.006375670898705721
+Progress epoch: 41 / 50 . Total loss: 0.005299825221300125
+Progress epoch: 42 / 50 . Total loss: 0.007083967328071594
+Progress epoch: 43 / 50 . Total loss: 0.006560804788023233
+Progress epoch: 44 / 50 . Total loss: 0.0060565839521586895
+Progress epoch: 45 / 50 . Total loss: 0.005487261340022087
+Progress epoch: 46 / 50 . Total loss: 0.004563591908663511
+Progress epoch: 47 / 50 . Total loss: 0.004788632970303297
+Progress epoch: 48 / 50 . Total loss: 0.004944377578794956
+Progress epoch: 49 / 50 . Total loss: 0.0041631050407886505
+Progress epoch: 50 / 50 . Total loss: 0.005009491462260485
