@@ -1,6 +1,6 @@
 # Semantic keypoint extraction
 
-Implementation of supervised semantic keypoint extraction
+Implementation of [supervised semantic keypoint extraction](https://arxiv.org/pdf/2211.08634.pdf)
 
 ## dependencies
 
@@ -43,4 +43,18 @@ project
         │   file111.csv
         │   file112.csv
         │   ...
+```
+
+
+## Citation
+
+If you are using our system in your research, consider citing our paper.
+
+```bibtex
+@article{Falque2022,
+  title={Semantic keypoint extraction for scanned animals using multi-depth-camera systems},
+  author={Falque, Raphael and Vidal-Calleja, Teresa and Alempijevic, Alen},
+  journal={arXiv preprint arXiv:2211.08634},
+  year={2022}
+}
 ```
