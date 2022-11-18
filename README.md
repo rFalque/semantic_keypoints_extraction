@@ -1,6 +1,6 @@
 # Semantic keypoint extraction
 
-Implementation of [supervised semantic keypoint extraction](https://arxiv.org/pdf/2211.08634.pdf)
+Implementation of [supervised semantic keypoint extraction](https://arxiv.org/pdf/2211.08634.pdf).
 
 ## dependencies
 
